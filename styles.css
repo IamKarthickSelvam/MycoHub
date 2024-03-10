@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(79, 97, 97);
+}
+
+.custom-nav {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+    background-color: #222;
+}
+
+.block-title {
+    background-color: cadetblue;
+}

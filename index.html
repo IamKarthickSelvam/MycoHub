@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MycoHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid custom-nav">
+            <a class="navbar-brand" href="#">MycoHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Research
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="#">Research Area 1</a></li>
+                            <li><a class="dropdown-item" href="#">Research Area 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More Research</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Publications
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="#">Journal Articles</a></li>
+                            <li><a class="dropdown-item" href="#">Conference Papers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Trainings
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="#">Journal Articles</a></li>
+                            <li><a class="dropdown-item" href="#">Conference Papers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4 mb-5 bg-light rounded col-9 p-5">
+        <h1>Welcome to MycoHub</h1>
+        <p>The user-friendly and Galaxy-supported pipeline FROGS analyses large sets of DNA amplicons sequences
+            accurately and
+            rapidly, essential for microbe community studies.</p>
+        <ul>
+            <li>FROGS was designed to support multiplexed and demultiplexed sequences</li>
+            <li>FROGS supports 16S, 18S, 23S, ITS and others amplicon reads</li>
+            <li>FROGS supports short or long reads</li>
+            <li>The preprocessing tool is dedicated to paired sequences merging, cleaning and dereplication</li>
+            <li>The clustering tool uses Swarm with a local clustering threshold, not a global clustering threshold like
+                other software
+                do</li>
+            <li>Chimera removal tool uses VSEARCH combined with an innovative chimera cross-validation</li>
+            <li>A filtering tool allows to remove noisy data</li>
+            <li>Affiliation tool returns taxonomic affiliation for each ASV using two methods with a unique
+                multi-affiliation output</li>
+        </ul>
+    </div>
+
+    <div class="container col-9">
+        <div class="row column-gap-5 mb-4">
+            <div class="col-6 bg-light rounded">
+                <div class="row">
+                    <div class="block-title fw-bold text-center py-2">Standard Operation Procedure for amplicons
+                        i.e. 16S, rpob, coi, 18S, ...</div>
+                </div>
+                <div class="justify-content-center">
+                    <img src="./assets/1test.png?" type="image/png" width="500" height="600" title="Test">
+                </div>
+            </div>
+            <div class="col bg-light rounded">
+                <div class="col bg-light rounded">
+                    <div class="row">
+                        <div class="block-title fw-bold text-center py-2">Citation</div>
+                    </div>
+                    <div class="mb-3">The publications :</div>
+                    <p>Frédéric Escudié, Lucas Auer, Maria Bernard, Mahendra Mariadassou, Laurent Cauquil, Katia Vidal,
+                        Sarah Maman,
+                        Guillermina Hernandez-Raquet, Sylvie Combes, Géraldine Pascal; FROGS: Find, Rapidly, OTUs with
+                        Galaxy Solution,
+                        Bioinformatics, Volume 34, Issue 8, 15 April 2018, Pages 1287–1294</p>
+                </div>
+            </div>
+        </div>
+        <div class="row column-gap-5 mb-4">
+            <div class="col-6 bg-light rounded">
+                <div class="row">
+                    <div class="block-title fw-bold text-center py-2">Standard Operation Procedure for amplicons
+                        i.e. 16S, rpob, coi, 18S, ...</div>
+                </div>
+                <div class="justify-content-center">
+                    <img src="./assets/1test.png?" type="image/png" width="500" height="600" title="Test">
+                </div>
+            </div>
+            <div class="col bg-light rounded">
+                <div class="col bg-light rounded">
+                    <div class="row">
+                        <div class="block-title fw-bold text-center py-2">To test FROGS</div>
+                    </div>
+                    <div class="mb-3">The publications :</div>
+                    <div class="mb-3">Install FROGS: conda or galaxy toolshed.</div>
+                    <div class="mb-3">FROGS training documentations and training data : Formation data and documentation
+                    </div>
+                    <div class="mb-3">Redo FROGS'assessments with command lines for analyse 16S amplicons Get data built
+                        with sequences from utax and silva
+                        databanks: doi.org/10.15454/VGVCIJ</div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
